@@ -1,0 +1,2 @@
+[2024-12-12 18:41:40,885] multiqc.core.file_search                           [INFO   ]  Search path: /home/oscar/Desktop/BioinformaticProjects/UpDownRegulated/Project/data/html/AlignmentQualities
+[2024-12-12 18:41:40,956] multiqc.modules.samtools.samtools                  [INFO   ]  Found 18 stats reports

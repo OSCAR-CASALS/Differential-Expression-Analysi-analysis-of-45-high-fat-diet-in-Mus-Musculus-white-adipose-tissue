@@ -1,0 +1,3 @@
+[2024-12-10 11:14:31,823] multiqc.core.file_search                           [INFO   ]  Search path: /home/oscar/Desktop/BioinformaticProjects/UpDownRegulated/Project/data/html/fastqc_trimmed
+[2024-12-10 11:14:32,149] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 18 reports
+[2024-12-10 11:14:32,249] multiqc.core.write_results                         [INFO   ]  Existing reports found, adding suffix to filenames. Use '--force' to overwrite.

@@ -1,0 +1,148 @@
+@misc{GSE112999,
+  author       = {Zhu, Q. and Cao, J. and Liu, L. and Hinkel, B. C. and Glazier, B. J. and Liang, C. and Shi, H.},
+  title        = {RNA sequencing of white adipose tissue of lean and obese mice},
+  year         = {2018},
+  note         = {GEO Series accession number GSE112999},
+  howpublished = {\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112999}},
+}
+
+@article{Han2019,
+   abstract = {Predicting the binding mode of flexible polypeptides to proteins is an important task that falls outside the domain of applicability of most small molecule and protein−protein docking tools. Here, we test the small molecule flexible ligand docking program Glide on a set of 19 non-α-helical peptides and systematically improve pose prediction accuracy by enhancing Glide sampling for flexible polypeptides. In addition, scoring of the poses was improved by post-processing with physics-based implicit solvent MM- GBSA calculations. Using the best RMSD among the top 10 scoring poses as a metric, the success rate (RMSD ≤ 2.0 Å for the interface backbone atoms) increased from 21% with default Glide SP settings to 58% with the enhanced peptide sampling and scoring protocol in the case of redocking to the native protein structure. This approaches the accuracy of the recently developed Rosetta FlexPepDock method (63% success for these 19 peptides) while being over 100 times faster. Cross-docking was performed for a subset of cases where an unbound receptor structure was available, and in that case, 40% of peptides were docked successfully. We analyze the results and find that the optimized polypeptide protocol is most accurate for extended peptides of limited size and number of formal charges, defining a domain of applicability for this approach.},
+   author = {Eunice S. Han and Annie goleman, daniel; boyatzis, Richard; Mckee},
+   issn = {1098-6596},
+   issue = {9},
+   journal = {Journal of Chemical Information and Modeling},
+   title = {NCBI SRA Toolkit Technology for Next Generation Sequence Data Stephen},
+   volume = {53},
+   year = {2019},
+}
+
+@article{Andrews2010,
+   abstract = {FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis. The main functions of FastQC are Import of data from BAM, SAM or FastQ files (any variant) Providing a quick overview to tell you in which areas there may be problems Summary graphs and tables to quickly assess your data Export of results to an HTML based permanent report Offline operation to allow automated generation of reports without running the interactive application},
+   author = {Simon Andrews},
+   journal = {Babraham Bioinformatics},
+   title = {FastQC},
+   year = {2010},
+}
+
+@article{Ewels2016,
+   abstract = {Motivation: Fast and accurate quality control is essential for studies involving next-generation sequencing data. Whilst numerous tools exist to quantify QC metrics, there is no common approach to flexibly integrate these across tools and large sample sets. Assessing analysis results across an entire project can be time consuming and error prone; batch effects and outlier samples can easily be missed in the early stages of analysis. Results: We present MultiQC, a tool to create a single report visualising output from multiple tools across many samples, enabling global trends and biases to be quickly identified. MultiQC can plot data from many common bioinformatics tools and is built to allow easy extension and customization. Availability and implementation: MultiQC is available with an GNU GPLv3 license on GitHub, the Python Package Index and Bioconda. Documentation and example reports are available at http://multiqc.info.},
+   author = {Philip Ewels and Måns Magnusson and Sverker Lundin and Max Käller},
+   doi = {10.1093/bioinformatics/btw354},
+   issn = {14602059},
+   issue = {19},
+   journal = {Bioinformatics},
+   title = {MultiQC: Summarize analysis results for multiple tools and samples in a single report},
+   volume = {32},
+   year = {2016},
+}
+
+@article{Bolger2014,
+   abstract = {Motivation: Although many next-generation sequencing (NGS) read preprocessing tools already existed, we could not find any tool or combination of tools that met our requirements in terms of flexibility, correct handling of paired-end data and high performance. We have developed Trimmomatic as a more flexible and efficient preprocessing tool, which could correctly handle paired-end data. Results: The value of NGS read preprocessing is demonstrated for both reference-based and reference-free tasks. Trimmomatic is shown to produce output that is at least competitive with, and in many cases superior to, that produced by other tools, in all scenarios tested. Availability and implementation: Trimmomatic is licensed under GPL V3. It is cross-platform (Java 1.5+ required) and available at http://www.usadellab.org/cms/index.php?page= trimmomatic. © The Author 2014.},
+   author = {Anthony M. Bolger and Marc Lohse and Bjoern Usadel},
+   doi = {10.1093/bioinformatics/btu170},
+   issn = {14602059},
+   issue = {15},
+   journal = {Bioinformatics},
+   title = {Trimmomatic: A flexible trimmer for Illumina sequence data},
+   volume = {30},
+   year = {2014},
+}
+
+@article{Kim2019,
+   abstract = {The human reference genome represents only a small number of individuals, which limits its usefulness for genotyping. We present a method named HISAT2 (hierarchical indexing for spliced alignment of transcripts 2) that can align both DNA and RNA sequences using a graph Ferragina Manzini index. We use HISAT2 to represent and search an expanded model of the human reference genome in which over 14.5 million genomic variants in combination with haplotypes are incorporated into the data structure used for searching and alignment. We benchmark HISAT2 using simulated and real datasets to demonstrate that our strategy of representing a population of genomes, together with a fast, memory-efficient search algorithm, provides more detailed and accurate variant analyses than other methods. We apply HISAT2 for HLA typing and DNA fingerprinting; both applications form part of the HISAT-genotype software that enables analysis of haplotype-resolved genes or genomic regions. HISAT-genotype outperforms other computational methods and matches or exceeds the performance of laboratory-based assays.},
+   author = {Daehwan Kim and Joseph M. Paggi and Chanhee Park and Christopher Bennett and Steven L. Salzberg},
+   doi = {10.1038/s41587-019-0201-4},
+   issn = {15461696},
+   issue = {8},
+   journal = {Nature Biotechnology},
+   title = {Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype},
+   volume = {37},
+   year = {2019},
+}
+
+@article{Danecek2021,
+   abstract = {Background: SAMtools and BCFtools are widely used programs for processing and analysing high-throughput sequencing data. They include tools for file format conversion and manipulation, sorting, querying, statistics, variant calling, and effect analysis amongst other methods. Findings: The first version appeared online 12 years ago and has been maintained and further developed ever since, with many new features and improvements added over the years. The SAMtools and BCFtools packages represent a unique collection of tools that have been used in numerous other software projects and countless genomic pipelines. Conclusion: Both SAMtools and BCFtools are freely available on GitHub under the permissive MIT licence, free for both non-commercial and commercial use. Both packages have been installed >1 million times via Bioconda. The source code and documentation are available from https://www.htslib.org.},
+   author = {Petr Danecek and James K. Bonfield and Jennifer Liddle and John Marshall and Valeriu Ohan and Martin O. Pollard and Andrew Whitwham and Thomas Keane and Shane A. McCarthy and Robert M. Davies},
+   doi = {10.1093/gigascience/giab008},
+   issn = {2047217X},
+   issue = {2},
+   journal = {GigaScience},
+   title = {Twelve years of SAMtools and BCFtools},
+   volume = {10},
+   year = {2021},
+}
+
+@article{Liao2019,
+   abstract = {We present Rsubread, a Bioconductor software package that provides high-performance alignment and read counting functions for RNA-seq reads. Rsubread is based on the successful Subread suite with the added ease-of-use of the R programming environment, creating a matrix of read counts directly as an R object ready for downstream analysis. It integrates read mapping and quantification in a single package and has no software dependencies other than R itself. We demonstrate Rsubread's ability to detect exon-exon junctions de novo and to quantify expression at the level of either genes, exons or exon junctions. The resulting read counts can be input directly into a wide range of downstream statistical analyses using other Bioconductor packages. Using SEQC data and simulations, we compare Rsubread to TopHat2, STAR and HTSeq as well as to counting functions in the Bioconductor infrastructure packages. We consider the performance of these tools on the combined quantification task starting from raw sequence reads through to summary counts, and in particular evaluate the performance of different combinations of alignment and counting algorithms. We show that Rsubread is faster and uses less memory than competitor tools and produces read count summaries that more accurately correlate with true values.},
+   author = {Yang Liao and Gordon K. Smyth and Wei Shi},
+   doi = {10.1093/nar/gkz114},
+   issn = {13624962},
+   issue = {8},
+   journal = {Nucleic Acids Research},
+   title = {The R package Rsubread is easier, faster, cheaper and better for alignment and quantification of RNA sequencing reads},
+   volume = {47},
+   year = {2019},
+}
+
+@article{Love2014,
+   abstract = {In comparative high-throughput sequencing assays, a fundamental task is the analysis of count data, such as read counts per gene in RNA-seq, for evidence of systematic changes across experimental conditions. Small replicate numbers, discreteness, large dynamic range and the presence of outliers require a suitable statistical approach. We present DESeq2, a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates. This enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression. The DESeq2 package is available at http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html.},
+   author = {Michael I. Love and Wolfgang Huber and Simon Anders},
+   doi = {10.1186/s13059-014-0550-8},
+   issn = {1474760X},
+   issue = {12},
+   journal = {Genome Biology},
+   title = {Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2},
+   volume = {15},
+   year = {2014},
+}
+
+@article{Kolde2012,
+   abstract = {A package for drawing pretty heatmaps in R. The ordinary heatmap function in R has several drawbacks when it comes to producing publication quality heatmaps. It is hard to produce pictures with consistent text, cell and overall sizes andshapes. The function pheatmap tries to alleviate the problemsby offering more fine grained control over heatmap dimensions and appearance},
+   author = {Raivo Kolde},
+   journal = {Bioconductor},
+   title = {Package `pheatmap'},
+   year = {2012},
+}
+
+@article{Yu2012,
+   abstract = {Increasing quantitative data generated from transcriptomics and proteomics require integrative strategies for analysis. Here, we present an R package, clusterProfiler that automates the process of biological-term classification and the enrichment analysis of gene clusters. The analysis module and visualization module were combined into a reusable workflow. Currently, clusterProfiler supports three species, including humans, mice, and yeast. Methods provided in this package can be easily extended to other species and ontologies. The clusterProfiler package is released under Artistic-2.0 License within Bioconductor project. The source code and vignette are freely available at http://bioconductor.org/packages/release/bioc/html/clusterProfiler.html. © 2012 Mary Ann Liebert, Inc.},
+   author = {Guangchuang Yu and Li Gen Wang and Yanyan Han and Qing Yu He},
+   doi = {10.1089/omi.2011.0118},
+   issn = {15362310},
+   issue = {5},
+   journal = {OMICS A Journal of Integrative Biology},
+   title = {ClusterProfiler: An R package for comparing biological themes among gene clusters},
+   volume = {16},
+   year = {2012},
+}
+
+@article{Binns2009,
+   abstract = {Summary: QuickGO is a web-based tool that allows easy browsing of the Gene Ontology (GO) and all associated electronic and manual GO annotations provided by the GO Consortium annotation groups QuickGO has been a popular GO browser for many years, but after a recent redevelopment it is now able to offer a greater range of facilities including bulk downloads of GO annotation data which can be extensively filtered by a range of different parameters and GO slim set generation. © The Author(s) 2009. Published by Oxford University Press.},
+   author = {David Binns and Emily Dimmer and Rachael Huntley and Daniel Barrell and Claire O'Donovan and Rolf Apweiler},
+   doi = {10.1093/bioinformatics/btp536},
+   issn = {13674803},
+   issue = {22},
+   journal = {Bioinformatics},
+   title = {QuickGO: A web-based tool for Gene Ontology searching},
+   volume = {25},
+   year = {2009},
+}
+
+@article{Martin2023,
+   abstract = {Ensembl (https://www.ensembl.org) has produced high-quality genomic resources for vertebrates and model organisms for more than twenty years. During that time, our resources, services and tools have continually evolved in line with both the publicly available genome data and the downstream research and applications that utilise the Ensembl platform. In recent years we have witnessed a dramatic shift in the genomic landscape. There has been a large increase in the number of high-quality reference genomes through global biodiversity initiatives. In parallel, there have been major advances towards pangenome representations of higher species, where many alternative genome assemblies representing different breeds, cultivars, strains and haplotypes are now available. In order to support these efforts and accelerate downstream research, it is our goal at Ensembl to create high-quality annotations, tools and services for species across the tree of life. Here, we report our resources for popular reference genomes, the dramatic growth of our annotations (including haplotypes from the first human pangenome graphs), updates to the Ensembl Variant Effect Predictor (VEP), interactive protein structure predictions from AlphaFold DB, and the beta release of our new website.},
+   author = {Fergal J. Martin and M. Ridwan Amode and Alisha Aneja and Olanrewaju Austine-Orimoloye and Andrey G. Azov and If Barnes and Arne Becker and Ruth Bennett and Andrew Berry and Jyothish Bhai and Simarpreet Kaur Bhurji and Alexandra Bignell and Sanjay Boddu and Paulo R. Branco Lins and Lucy Brooks and Shashank Budhanuru Ramaraju and Mehrnaz Charkhchi and Alexander Cockburn and Luca Da Rin Fiorretto and Claire Davidson and Kamalkumar Dodiya and Sarah Donaldson and Bilal El Houdaigui and Tamara El Naboulsi and Reham Fatima and Carlos Garcia Giron and Thiago Genez and Gurpreet S. Ghattaoraya and Jose Gonzalez Martinez and Cristi Guijarro and Matthew Hardy and Zoe Hollis and Thibaut Hourlier and Toby Hunt and Mike Kay and Vinay Kaykala and Tuan Le and Diana Lemos and Diego Marques-Coelho and Jose Carlos Marugán and Gabriela Alejandra Merino and Louisse Paola Mirabueno and Aleena Mushtaq and Syed Nakib Hossain and Denye N. Ogeh and Manoj Pandian Sakthivel and Anne Parker and Malcolm Perry and Ivana Piliota and Irina Prosovetskaia and Jose G. Perez-Silva and Ahamed Imran Abdul Salam and Nuno Saraiva-Agostinho and Helen Schuilenburg and Dan Sheppard and Swati Sinha and Botond Sipos and William Stark and Emily Steed and Ranjit Sukumaran and Dulika Sumathipala and Marie Marthe Suner and Likhitha Surapaneni and Kyösti Sutinen and Michal Szpak and Francesca Floriana Tricomi and David Urbina-Gómez and Andres Veidenberg and Thomas A. Walsh and Brandon Walts and Elizabeth Wass and Natalie Willhoft and Jamie Allen and Jorge Alvarez-Jarreta and Marc Chakiachvili and Bethany Flint and Stefano Giorgetti and Leanne Haggerty and Garth R. Ilsley and Jane E. Loveland and Benjamin Moore and Jonathan M. Mudge and John Tate and David Thybert and Stephen J. Trevanion and Andrea Winterbottom and Adam Frankish and Sarah E. Hunt and Magali Ruffier and Fiona Cunningham and Sarah Dyer and Robert D. Finn and Kevin L. Howe and Peter W. Harrison and Andrew D. Yates and Paul Flicek},
+   doi = {10.1093/nar/gkac958},
+   issn = {13624962},
+   issue = {1 D},
+   journal = {Nucleic Acids Research},
+   title = {Ensembl 2023},
+   volume = {51},
+   year = {2023},
+}
+
+
+
+
+
+
