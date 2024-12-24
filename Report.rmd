@@ -2,14 +2,14 @@
 title: "Differential Expression Analysis of 45% high-fat diet in Mus Musculus white adipose tissue"
 author: "Òscar Casals"
 output:
-  pdf_document:
-    toc: true
-    toc_depth: 2
   html_document:
     toc: true
     toc_float: true
     toc_depth: 2
     # number_sections: true
+  pdf_document:
+    toc: true
+    toc_depth: 2
 documentclass: report
 bibliography: references.bib
 csl: apa-numeric-superscript.csl
@@ -90,7 +90,7 @@ Per Base Sequence Content shows that some bases at the start of the sequence did
 
 **Figure 2** Per base sequence content of raw reads.
 
-Samples SRR6984609, SRR6984617, SRR6984619, SRR6984620 had SRR6984621 irregular GC content, from these samples all except SRR6984619 and SRR6984620 come from mouse that followed the 45% high fat diet therefore could be explained by the presence of upregulated genes.
+Samples SRR6984609, SRR6984617, SRR6984619, SRR6984620 and SRR6984621 had irregular GC content, from these samples all except SRR6984619 and SRR6984620 come from mouse that followed the 45% high fat diet therefore could be explained by the presence of upregulated genes.
 
 ![](Images/fastqc_per_sequence_gc_content_plot.png)
 
