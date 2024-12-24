@@ -45,6 +45,16 @@ The main objectives of this analysis are:
 
 - Associate these genes to GO biological processes.
 
+# Samples
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.height = 10}
+library(dplyr)
+d <- read.csv(file = "data/Metadata.csv", sep = ",", head = TRUE)
+
+knitr::kable(d %>% select(Run, tissue, Diet) %>% rename(Sample = "Run", Tissue = "tissue"))
+
+```
+
 # Methods
 
 The following steps were performed in this analysis:
