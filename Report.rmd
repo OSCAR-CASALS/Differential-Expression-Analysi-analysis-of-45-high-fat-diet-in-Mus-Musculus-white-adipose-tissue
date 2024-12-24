@@ -49,9 +49,16 @@ The main objectives of this analysis are:
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.height = 10}
 library(dplyr)
+library(kableExtra)
+
 d <- read.csv(file = "data/Metadata.csv", sep = ",", head = TRUE)
 
-knitr::kable(d %>% select(Run, tissue, Diet) %>% rename(Sample = "Run", Tissue = "tissue"))
+if(knitr::is_html_output() == FALSE){
+  
+  knitr::kable(d %>% select(Run, Assay.Type, LibraryLayout, tissue, Diet) %>% rename(Sample = "Run", Tissue = "tissue", Technology = "Assay.Type", `Library Layout` = "LibraryLayout")) %>% kable_styling(font_size = 7)
+}else{
+  knitr::kable(d %>% select(Run, Assay.Type, LibraryLayout, tissue, Diet) %>% rename(Sample = "Run", Tissue = "tissue", Technology = "Assay.Type", `Library Layout` = "LibraryLayout"))
+}
 
 ```
 
