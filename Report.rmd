@@ -1,5 +1,5 @@
 ---
-title: "Differential Expression Analysi analysis of 45% high-fat diet in Mus Musculus white adipose tissue."
+title: "Differential Expression Analysis of 45% high-fat diet in Mus Musculus white adipose tissue"
 author: "Òscar Casals"
 output:
   pdf_document:
