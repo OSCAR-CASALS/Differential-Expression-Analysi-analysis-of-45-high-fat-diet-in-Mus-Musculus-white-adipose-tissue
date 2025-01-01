@@ -83,7 +83,7 @@ using SRA Toolkit[@Han2019] and its quality evaluated with both fastqc[@Andrews2
 
 - **GO enrichment:** Finally, the biological processes of the most significantly differentially expressed genes were computed with function _enrichGO_ from library _clusterProfiler_[@Yu2012] (DifferentialExpression.R) and the most affected biological processes groups were computed with function _groupGO_ from the same package. The meaning for the four most relevant GO terms in each tissue was looked on QuickGO[@Binns2009].
 
-The source code for this project can be found at: https://github.com/OSCAR-CASALS/Differential-Expression-Analysi-analysis-of-45-high-fat-diet-in-Mus-Musculus-white-adipose-tissue
+The source code for this project alongside additional results not present in this report can be found at: https://github.com/OSCAR-CASALS/Differential-Expression-Analysi-analysis-of-45-high-fat-diet-in-Mus-Musculus-white-adipose-tissue
 
 # Results
 
@@ -160,7 +160,7 @@ PCA
 
 **Figure 9** PCA, color Dark Purple corresponds to EWAT samples that followed a 45 High Fat Diet, color Dark Blue corresponds to IWAT samples that followed a 45 High Fat Diet, color Teal corresponds to RWAT samples that followed a 45 High Fat Diet, color Green corresponds to EWAT samples that followed a Standard Diet, color Light Green corresponds to IWAT samples that followed a Standard Diet, color Yellow corresponds to RWAT samples that followed a Standard Diet.
 
-The following heatmap shows that gene ENSMUSG00000025153 has lower counts in samples: SRR6984609, SRR6984610, SRR6984611, SRR6984616, SRR6984617, SRR6984621, SRR6984622 and SRR6984623; all these samples belong to rats that followed a 45% high fat diet therefore this gene could be under expressed because of the eating habits of the mice.
+The following heatmap shows that gene Fasn (Ensembl ID: ENSMUSG0000002515), which is in charge of encoding the enzyme fatty acid synthetase, has lower counts in samples: SRR6984609, SRR6984610, SRR6984611, SRR6984616, SRR6984617, SRR6984621, SRR6984622 and SRR6984623; all these samples belong to rats that followed a 45% high fat diet therefore this gene could be under expressed because of the eating habits of the mice.
 
 ![](Images/Pheatmap.png)
 
